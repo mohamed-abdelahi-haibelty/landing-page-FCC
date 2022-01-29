@@ -22,17 +22,18 @@ header {
 }
 nav a {
   margin: 20px;
+  padding: 5px 30px;
   color: var(--gold);
   text-decoration: none;
   transition: 0.6s;
   font-size: 1.1em;
 }
 nav a:hover {
-  border-bottom: 2px solid var(--white);
+  border: 2px solid var(--white);
   color: var(--white);
-  font-size: 1.2em;
+  font-size: 1.15em;
   font-weight: 700;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 h2 {
   color: var(--white);
@@ -62,4 +63,12 @@ input[type="email"]:hover {
 #submit:hover {
   transform: scale(1.1);
   background-color: var(--orange-plus);
+}
+.hero {
+  height: auto;
+  width: 100%;
+}
+.get-started {
+  margin-left: 27em;
+  margin-top: 2em;
 }
