@@ -4,6 +4,7 @@
   --black-grey: #24252a;
   --black: #000;
   --old: #d1c387;
+  --white: #fff;
 }
 * {
   padding: 0;
@@ -23,5 +24,17 @@ nav a {
   text-decoration: none;
 }
 h2 {
-  color: #fff;
+  color: var(--white);
+}
+input[type="email"] {
+  background-color: var(--white);
+  border: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  outline: none;
+  margin: 7px 0;
+  transition: 0.5s ease;
+}
+input[type="email"]:hover {
+  background-color: var(--old);
 }
