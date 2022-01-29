@@ -73,10 +73,27 @@ input[type="email"]:hover {
   margin-left: 27em;
   margin-top: 2em;
 }
+.Features {
+  margin: 50px 11em;
+  width: 1000px;
+}
+.fast {
+  display: flex;
+  align-items: center;
+}
+
 p {
   color: var(--white);
   display: inline-block;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  font-size: 1.2em;
+}
+.fire2 {
+  font-size: 4.7em;
+  margin: 20px 0;
 }
 .fire {
   font-size: 3em;
+  margin: 20px 0;
 }
