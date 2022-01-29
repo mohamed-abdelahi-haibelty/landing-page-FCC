@@ -73,3 +73,7 @@ input[type="email"]:hover {
   margin-left: 27em;
   margin-top: 2em;
 }
+p {
+  color: var(--white);
+  display: inline-block;
+}
