@@ -77,3 +77,6 @@ p {
   color: var(--white);
   display: inline-block;
 }
+.fire {
+  font-size: 3em;
+}
