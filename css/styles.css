@@ -5,6 +5,8 @@
   --black: #000;
   --gold: #d1c387;
   --white: #fff;
+  --orange: #febd69;
+  --orange-plus: #f39d2c;
 }
 * {
   padding: 0;
@@ -52,6 +54,11 @@ input[type="email"]:hover {
   outline: none;
   padding: 10px;
   margin: 10px 42px;
-  background-color: var(--gold);
+  background-color: var(--orange);
   color: #000;
+  transition: 0.7s;
+}
+#submit:hover {
+  transform: scale(1.1);
+  background-color: var(--orange-plus);
 }
