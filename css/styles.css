@@ -3,7 +3,7 @@
   --blue: #22c4d6;
   --black-grey: #24252a;
   --black: #000;
-  --old: #d1c387;
+  --gold: #d1c387;
   --white: #fff;
 }
 * {
@@ -20,7 +20,7 @@ header {
 }
 nav a {
   margin: 20px;
-  color: var(--old);
+  color: var(--gold);
   text-decoration: none;
   transition: 0.6s;
 }
@@ -44,5 +44,14 @@ input[type="email"] {
   transition: 0.5s ease;
 }
 input[type="email"]:hover {
-  background-color: var(--old);
+  background-color: var(--gold);
+}
+#submit {
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  margin: 10px 42px;
+  background-color: var(--gold);
+  color: #000;
 }
