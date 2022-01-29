@@ -92,8 +92,10 @@ p {
 .fire2 {
   font-size: 4.7em;
   margin: 20px 0;
+  color: var(--orange);
 }
 .fire {
   font-size: 3em;
   margin: 20px 0;
+  color: var(--orange);
 }
