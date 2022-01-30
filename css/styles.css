@@ -105,3 +105,8 @@ p {
   height: auto;
   padding: 20px 0 40px 380px;
 }
+.Pricing {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+}
