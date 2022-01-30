@@ -73,7 +73,6 @@ input[type="email"]:hover {
 .hero {
   height: auto;
   width: 100%;
-  background-attachment: fixed;
 }
 .get-started {
   margin-left: 27em;
@@ -119,7 +118,7 @@ p {
 }
 .card {
   background-color: var(--white);
-  max-width: 250px;
+  max-width: 360px;
   flex: 1;
   text-align: center;
   margin: 20px 10px;
@@ -128,7 +127,8 @@ p {
 }
 .card-header {
   display: inline-block;
-  background-color: #0fbcf9;
+  background-color: var(--black);
+  color: var(--white);
   font-size: 16px;
   border-radius: 0 0 20px 20px;
   padding: 12px 30px;
@@ -141,4 +141,19 @@ p {
 li {
   font-size: 30px;
   padding: 15px 10px;
+}
+.card a {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-top: 80px;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  padding: 18px 40px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  transition: 3s linear;
+  font-weight: 600;
+}
+.card a:hover {
+  background-color: #0fbcf9;
 }
