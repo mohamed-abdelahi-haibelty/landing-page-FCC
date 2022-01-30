@@ -13,6 +13,7 @@
   margin: 0;
   box-sizing: border-box;
   background-color: var(--black);
+  list-style: none;
 }
 header {
   display: flex;
