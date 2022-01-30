@@ -26,6 +26,7 @@ header {
   z-index: 1;
   top: 0;
   position: sticky;
+  background-color: var(--black);
 }
 nav a {
   margin: 20px;
@@ -72,6 +73,7 @@ input[type="email"]:hover {
 .hero {
   height: auto;
   width: 100%;
+  background-attachment: fixed;
 }
 .get-started {
   margin-left: 27em;
@@ -132,4 +134,11 @@ p {
   padding: 12px 30px;
   font-weight: 600;
   transition: 4s linear;
+}
+.card-content {
+  font-size: 1.6em;
+}
+li {
+  font-size: 30px;
+  padding: 15px 10px;
 }
