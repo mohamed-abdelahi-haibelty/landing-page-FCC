@@ -173,3 +173,19 @@ li {
   background-color: #0a6b5c;
   color: var(--white);
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: end;
+  padding-right: 50px;
+}
+.footer-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-div a {
+  padding: 10px 20px;
+  color: var(--white);
+  text-decoration: none;
+}
