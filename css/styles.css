@@ -13,13 +13,13 @@
   --yellow: #f5ea81;
 }
 .bg-yellow {
-  background-color: var(--yellow);
+  background-color: #161616;
 }
 .bg-blue-white {
-  background-color: var(--blue-white);
+  background-color: #161616;
 }
 .bg-orange-two {
-  background-color: var(--orange-two);
+  background-color: #161616;
 }
 * {
   padding: 0;
@@ -110,12 +110,14 @@ p {
 .fire2 {
   font-size: 4.7em;
   margin: 20px 0;
-  color: var(--orange);
+  /* color: var(--orange); */
+  color: rgb(255, 127, 7);
 }
 .fire {
   font-size: 3em;
   margin: 20px 0;
-  color: var(--orange);
+  /* color: var(--orange); */
+  color: rgb(255, 127, 7);
 }
 #How-It-Works {
   background-color: var(--white);
@@ -138,7 +140,7 @@ p {
   flex: 1;
   text-align: center;
   margin: 20px 10px;
-  color: #2d2d2d;
+  color: #ccc;
 }
 .card-header {
   display: inline-block;
