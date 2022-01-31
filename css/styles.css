@@ -91,7 +91,7 @@ input[type="email"]:hover {
   margin-left: 27em;
   margin-top: 2em;
 }
-.Features {
+#Features {
   margin: 50px 11em;
   width: 1000px;
 }
@@ -117,7 +117,7 @@ p {
   margin: 20px 0;
   color: var(--orange);
 }
-.How-It-Works {
+#How-It-Works {
   background-color: var(--white);
 }
 .iframe-container {
@@ -125,7 +125,7 @@ p {
   height: auto;
   padding: 20px 0 40px 380px;
 }
-.Pricing {
+#Pricing {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
