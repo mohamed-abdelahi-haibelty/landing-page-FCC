@@ -7,6 +7,19 @@
   --white: #fff;
   --orange: #febd69;
   --orange-plus: #f39d2c;
+  --green: ;
+  --orange-two: #ffce96;
+  --blue-white: #b4ddd3;
+  --yellow: #f5ea81;
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.bg-blue-white {
+  background-color: var(--blue-white);
+}
+.bg-orange-two {
+  background-color: var(--orange-two);
 }
 * {
   padding: 0;
@@ -104,6 +117,9 @@ p {
   margin: 20px 0;
   color: var(--orange);
 }
+.How-It-Works {
+  background-color: var(--white);
+}
 .iframe-container {
   width: 100%;
   height: auto;
@@ -115,25 +131,23 @@ p {
   flex-wrap: wrap;
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: var(--white);
 }
 .card {
-  background-color: var(--white);
   max-width: 360px;
   flex: 1;
   text-align: center;
   margin: 20px 10px;
-  transition: 3s linear;
   color: #2d2d2d;
 }
 .card-header {
   display: inline-block;
-  background-color: var(--black);
+  background-color: #0a6b5c;
   color: var(--white);
   font-size: 16px;
   border-radius: 0 0 20px 20px;
   padding: 12px 30px;
   font-weight: 600;
-  transition: 4s linear;
 }
 .card-content {
   font-size: 1.6em;
@@ -146,14 +160,16 @@ li {
   display: inline-block;
   margin-bottom: 40px;
   margin-top: 80px;
-  border: 2px solid var(--orange);
+  border: 2px solid #0a6b5c;
   border-radius: 8px;
   padding: 18px 40px;
   text-transform: uppercase;
+  color: #0a6b5c;
   font-size: 1.2em;
-  transition: 3s linear;
+  transition: 0.5s ease;
   font-weight: 600;
 }
 .card a:hover {
-  background-color: #0fbcf9;
+  background-color: #0a6b5c;
+  color: var(--white);
 }
